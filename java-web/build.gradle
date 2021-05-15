@@ -17,6 +17,7 @@ apply plugin: 'io.spring.dependency-management'
 
 
 jar {
+	enabled = true
 	baseName = 'app'
 	version = '0.0.1-SNAPSHOT'
 }
