@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "fastify": "^3.18.1",
+    "mercurius": "^8.0.0",
+    "short-uuid": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.10"
+  }
+}

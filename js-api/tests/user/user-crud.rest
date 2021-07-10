@@ -1,0 +1,18 @@
+@host = http://localhost
+@port = 8080
+### Get All Users
+GET {{host}}:{{port}}/ping
+
+### Get users
+GET {{host}}:{{port}}/users
+
+### Get users
+GET {{host}}:{{port}}/users
+
+### Create new user
+POST {{host}}:{{port}}/users
+Content-Type: "application/json"
+
+{
+    "name": "Eshawn"    
+}

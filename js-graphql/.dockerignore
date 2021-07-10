@@ -1,0 +1,7 @@
+node_modules
+log/*
+Dockerfile
+README.node_modules
+README.md
+npm-debug.log
+.history
